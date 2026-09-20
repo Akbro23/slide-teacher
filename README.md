@@ -1,6 +1,8 @@
 # Slide Teacher
 
-AI-powered PDF slide explainer for students. Upload a lecture PDF, click marked key terms or select any text, and get an explanation in a glassmorphism overlay panel.
+AI-powered PDF slide explainer for students. Upload a lecture PDF, click marked key terms or select any text, and get an explanation in a popover anchored to the slide.
+
+![Clicking a marked key term opens an explanation popover beside it, with Example, Analogy and Elaborate follow-ups](public/demo.gif)
 
 ## Quick start
 
@@ -84,8 +86,8 @@ components/
   upload-zone.tsx           Drag-and-drop PDF upload
   pdf-viewer.tsx            Paged rendering, dot overlay, selection handling
   dot-marker.tsx            Positioned dot with tooltip
-  glass-panel.tsx           Explanation panel and its queries
-  notes-sidebar.tsx         Collapsible saved-notes sidebar
+  glass-panel.tsx           Explanation popover and its queries
+  notes-popover.tsx         Saved-notes popover, opened from the navbar
 hooks/
   use-notes.ts              localStorage-backed notes via useSyncExternalStore
 lib/

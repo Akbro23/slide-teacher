@@ -46,3 +46,6 @@ next-env.d.ts
 
 # local scratch (sample fixtures, etc.)
 /tmp
+
+# source recording for the README; public/demo.gif is the committed version
+/public/demo.mp4
